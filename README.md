@@ -64,5 +64,140 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Agentik is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://www.agentik.cc
+Agentik connects Claude, ChatGPT, Codex and Cursor to over 3,500 tools through a single MCP connection, allowing agents to invoke each tool at the provider's price. The platform offers step‑by‑step playbooks, pricing details, and comprehensive documentation hosted on a modern Next.js site. It is operated by BURIZA, a French single‑member simplified joint‑stock company (SASU) based in Paris, and provides a public API described in OpenAPI format.
+
+**Areas:** AI · Automation · Tools · MCP · SaaS
+
+## Agentik on APIs.io
+
+Everything profiled for Agentik is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/agentik-cc/](https://apis.io/providers/agentik-cc/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [Agentik Discover API](https://apis.io/apis/agentik-cc/agentik-cc-discover-api/) — The discover API from Agentik — 7 operation(s) for discover.
+- [Agentik OAuth API](https://apis.io/apis/agentik-cc/agentik-cc-oauth-api/) — The oauth API from Agentik — 6 operation(s) for oauth.
+- [Agentik Run API](https://apis.io/apis/agentik-cc/agentik-cc-run-api/) — The run API from Agentik — 3 operation(s) for run.
+- [Agentik Wallet API](https://apis.io/apis/agentik-cc/agentik-cc-wallet-api/) — The wallet API from Agentik — 4 operation(s) for wallet.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Agentik Cc Agentic Access](https://apis.io/agentic-access/agentik-cc/agentik-cc-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AgentInfo](https://apis.io/schemas/agentik-cc/agentik-cc-agent-info/)
+- [DiscoverResponse](https://apis.io/schemas/agentik-cc/agentik-cc-discover-response/)
+- [RunResult](https://apis.io/schemas/agentik-cc/agentik-cc-run-result/)
+- [RunView](https://apis.io/schemas/agentik-cc/agentik-cc-run-view/)
+- [Tool](https://apis.io/schemas/agentik-cc/agentik-cc-tool/)
+- [WalletBalance](https://apis.io/schemas/agentik-cc/agentik-cc-wallet-balance/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Agentik Cc Context](https://apis.io/jsonld/agentik-cc/agentik-cc-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Agentik API Rules](https://apis.io/rules/agentik-cc/agentik-cc-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Agentik Cc Authentication](https://apis.io/security/agentik-cc/agentik-cc-authentication/)
+- [Agentik Cc Domain Security](https://apis.io/security/agentik-cc/agentik-cc-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Agentik Cc Scopes](https://apis.io/scopes/agentik-cc/agentik-cc-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Agentik Cc Plans Pricing](https://apis.io/plans/agentik-cc/agentik-cc-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.agentik.cc)
+- [Documentation](https://www.agentik.cc/docs)
+- [Getting started](https://www.agentik.cc/playbooks)
+- [API reference](https://www.agentik.cc/llms.txt)
+- [Pricing](https://www.agentik.cc/pricing)
+- [Support](https://www.agentik.cc/contact)
+- [Changelog](https://www.agentik.cc/changelog)
+- [Security](https://www.agentik.cc/security)
+- [Terms of service](https://www.agentik.cc/terms)
+- [Privacy policy](https://www.agentik.cc/privacy)
+
+## API Evangelist rating
+
+**Kin Score 62.3** — strong · rubric 0.27.0 · scored 2026-11-05
+
+| Facet | Score |
+|---|---|
+| Discoverability | 67.9 |
+| Contract quality | 56.5 |
+| Contract governance | 79.1 |
+| Operational transparency | 34.2 |
+| Developer ergonomics | 61.2 |
+| Access clarity | 63.7 |
+
+**Agent readiness 69.2** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | verified |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 31.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/agentik-cc/](https://apis.io/providers/agentik-cc/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Agentik: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/agentik-cc/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
